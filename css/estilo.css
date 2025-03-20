@@ -28,6 +28,16 @@ body{
     float: left;
    
   }  
+
+.entry-title {
+    font-size:20px;
+    font-size:1.25rem;
+  }
+.entry-meta{
+    color: #f5f5f5;
+    font-weight: 600;
+    font-size: 0.8125rem;
+}  
   
 .caixa-conteudo{
     background: #fff;
