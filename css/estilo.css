@@ -38,6 +38,18 @@ body{
     font-weight: 600;
     font-size: 0.8125rem;
 }  
+
+.entry-content {
+    word-wrap:break-word
+  }
+
+.aligncenter {
+    clear:both;
+    text-align:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto
+  }  
   
 .caixa-conteudo{
     background: #fff;
