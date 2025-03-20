@@ -32,9 +32,9 @@ body{
   }  
 
 .entry-title {
-    font-size:20px;
+    font-size:60;
     font-size:1.25rem;
-    font-weight: 100;
+    font-weight: 300;
   }
 .entry-meta{
     color: #f5f5f5;
