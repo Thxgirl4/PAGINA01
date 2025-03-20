@@ -14,12 +14,14 @@ body{
 #conteudo{
     margin-top: 60px;
     background: #f5f5f5;
+    border: dashed floralwhite;
 }
 
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
+    border: #f5f5f5 dashed;
  
   }
 
