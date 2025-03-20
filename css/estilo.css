@@ -23,8 +23,15 @@ body{
  
   }
 
-  #secundario {
+#secundario {
     width: 270px;
     float: left;
    
   }  
+  
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+    
+    }
