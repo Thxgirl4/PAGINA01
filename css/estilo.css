@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: rgb(196, 221, 196);
   color: #333;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,19 @@ section {
   text-align: center;
 }
 h2, p, img {
-  width: 100px;
+  width: 600px;
   height: auto;
   margin: auto;
+}
+
+img.aligncenter {
+  width: 80%; 
+  max-width: 600px;
+  height: auto; 
+}
+section p {
+  text-align: justify;
+  hyphens: auto; /* Adiciona hifens automaticamente */
+  width: 70%;
+  margin: 0 auto;
 }
