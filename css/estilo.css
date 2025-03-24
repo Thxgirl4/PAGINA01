@@ -1,76 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-} 
-
-body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #fff ;
-
+/* Arquivo: style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
-
-/*-----------------Conteudo--------------*/
-
-#conteudo{
-    margin-top: 60px;
-    margin-left: auto;
-    padding: auto;
-    background: #f5f5f5;
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
 }
-
-#primario {
-    width: 270px;
-    float: right;
-    margin: 0 0 20px 195px;
- 
-  }
-
-#secundario {
-    width: 270px;
-    float: left;
-   
-  }  
-
-.entry-title {
-    font-size: 20px;
-    font-size:1.25rem;
-    font-weight: 100;
-  }
-  
-  h1.entry-title {
-    text-size-adjust: 100;
-  }
-
-.entry-meta{
-    color: #f5f5f5;
-    font-weight: 600;
-    font-size: 0.8125rem;
-}  
-
-.entry-content {
-    word-wrap:break-word
-  }
-
-.aligncenter {
-    clear:both;
-    text-align:center;
-    display:block;
-    margin-left:auto;
-    margin-right:auto
-  }  
-
-blockquote {
-  border-left:5px solid var(--ast-border-color);
-  padding:20px;
-  font-size:1.2em;
-  font-style:italic;
-  margin:0 0 1.5em;
-  position:relative
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
-  
-.caixa-conteudo{
-    background: #fff;
-    padding: 5px;
-    margin: 5px;
-    
-    }
+nav ul li {
+  margin: 0 15px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+section {
+  padding: 2rem;
+  text-align: center;
+}
+h2, p, img {
+  width: 100px;
+  height: auto;
+  margin: auto;
+}
