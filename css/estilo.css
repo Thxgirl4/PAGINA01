@@ -46,6 +46,7 @@ h2, p, img {
   width: 600px;
   height: auto;
   margin: auto;
+  padding: 20%;
 }
 
 img.aligncenter {
