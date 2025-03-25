@@ -56,6 +56,6 @@ img.aligncenter {
 section p {
   text-align: justify;
   hyphens: auto; /* Adiciona hifens automaticamente */
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
