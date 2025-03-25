@@ -57,6 +57,7 @@ section p {
   text-align: justify;
   hyphens: auto; /* Add hifens automaticamente */
   width: 70%;
+  height: 70%;
   margin: 0 auto;
 }
 
