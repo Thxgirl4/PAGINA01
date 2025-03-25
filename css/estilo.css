@@ -59,3 +59,15 @@ section p {
   width: 74%;
   margin: 0 auto;
 }
+
+/* versões diferentes responsivo */
+@media only screen and (max-width: 480px){
+  body {
+    background-color: white;
+    color: #333;
+  }
+
+  .conteudo-disp.pequeno{
+    display: block;
+  }
+}
