@@ -60,5 +60,8 @@ section p {
   width: 60%;
   margin: 0 auto;
 }
+.especial{
+  color:yellow;
+}
 
 /* versões diferentes responsivo */
