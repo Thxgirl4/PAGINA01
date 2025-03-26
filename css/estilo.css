@@ -12,7 +12,8 @@ body {
   min-height: 100vh;
 }
 header {
-  background-color: #333;
+ /* background-color: #333; */
+  background-image: url(imagens/programa_sentinela-Editado.jpg);
   color: white;
   text-align: center;
   padding: 1rem;
@@ -55,12 +56,6 @@ img.aligncenter {
   padding: 5%;
 }
 section p {
-  text-align: justify;
-  hyphens: auto; /* Add hifens automaticamente */
-  width: 60%;
-  margin: 0 auto;
-}
-section p h1{
   text-align: justify;
   hyphens: auto; /* Add hifens automaticamente */
   width: 60%;
