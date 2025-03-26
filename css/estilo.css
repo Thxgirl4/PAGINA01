@@ -12,8 +12,7 @@ body {
   min-height: 100vh;
 }
 header {
- /* background-color: #333; */
-  background-image: url(imagens/programa_sentinela-Editado.jpg);
+  background-color: #333;
   color: white;
   text-align: center;
   padding: 1rem;
