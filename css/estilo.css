@@ -13,11 +13,13 @@ body {
   min-height: 100vh;
 }
 header {
-  background-image: url("/imagens/programa_sentinela\ -\ Editado.jpg");
+  background: url("/imagens/programa_sentinela\ -\ Editado.jpg") no-repeat;
+  background-position: center;
   color: white;
   text-align: center;
   padding: 1rem;
   width: 100%;
+  height: 365px;
 }
 nav ul {
   list-style: none;
@@ -80,6 +82,7 @@ section p iframe{
   height: 94px; 
   max-width: 100%;
   background-image: url("../imagens/logo_fundesa-removebg.png");
+  background-position: center;
   float: left;
 }
 
@@ -93,6 +96,7 @@ section p iframe{
   height: 140px;
   max-width: 100%;
   background-image: url("/imagens/brasão-secretaria2.png");
+  background-position: center;
   float: left;
 }
 .group:before,
