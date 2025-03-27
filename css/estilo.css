@@ -77,7 +77,8 @@ section p iframe{
   position:relative;
   border: solid red;
   width: 330px;
-  height: 94px;
+  height: 94px; 
+  max-width: 100%;
   background-image: url("../imagens/logo_fundesa-removebg.png");
   float: left;
 }
@@ -90,6 +91,7 @@ section p iframe{
   border: solid red;
   width: 322px;
   height: 140px;
+  max-width: 100%;
   background-image: url("/imagens/brasão-secretaria2.png");
   float: left;
 }
