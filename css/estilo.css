@@ -1,6 +1,7 @@
 /* arquivo: estilo.css */
 body {
   font-family: Arial, sans-serif;
+  overflow: visible;
   margin: 0;
   padding: 0;
   background-color: white;
@@ -16,7 +17,7 @@ header {
   color: white;
   text-align: center;
   padding: 1rem;
-  width: 300%;
+  width: 100%;
 }
 nav ul {
   list-style: none;
@@ -60,6 +61,10 @@ section p {
   width: 60%;
   margin: 0 auto;
 }
+section p iframe{
+  align-items: auto;
+
+}
 .especial{
   color:yellow;
 }
@@ -73,7 +78,7 @@ section p {
   width: 330px;
   height: 94px;
   background-image: url("../imagens/logo_fundesa-removebg.png");
-  float: left;
+  float: center;
 }
 
 #DivA{
@@ -85,7 +90,7 @@ section p {
   width: 322px;
   height: 140px;
   background-image: url("/imagens/brasão-secretaria2.png");
-  float: left;
+  float: center;
 }
 .group:before,
 .group:after {
@@ -98,6 +103,8 @@ section p {
 .group {
    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
+
+
 
 
 
