@@ -12,11 +12,11 @@ body {
   min-height: 100vh;
 }
 header {
-  background-color: #333;
+  background-image: url("/imagens/programa_sentinela\ -\ Editado.jpg");
   color: white;
   text-align: center;
   padding: 1rem;
-  width: 100%;
+  width: 300%;
 }
 nav ul {
   list-style: none;
@@ -63,6 +63,43 @@ section p {
 .especial{
   color:yellow;
 }
+
+#DivLateral{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position:relative;
+  border: solid red;
+  width: 330px;
+  height: 94px;
+  background-image: url("../imagens/logo_fundesa-removebg.png");
+  float: left;
+}
+
+#DivA{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position:relative;
+  border: solid red;
+  width: 322px;
+  height: 140px;
+  background-image: url("/imagens/brasão-secretaria2.png");
+  float: left;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
+}
+.group {
+   zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
 
 
 /* versões diferentes responsivo */
