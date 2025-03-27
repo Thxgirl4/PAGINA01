@@ -82,7 +82,7 @@ section p iframe{
   height: 94px; 
   max-width: 100%;
   background-image: url("../imagens/logo_fundesa-removebg.png");
-  background-position: center;
+  background-position: left;
   float: left;
 }
 
@@ -96,7 +96,7 @@ section p iframe{
   height: 140px;
   max-width: 100%;
   background-image: url("/imagens/brasão-secretaria2.png");
-  background-position: center;
+  background-position: left;
   float: left;
 }
 .group:before,
