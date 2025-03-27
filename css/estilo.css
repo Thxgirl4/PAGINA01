@@ -65,6 +65,8 @@ section p {
 section p iframe{
   align-items: center;
   display: inline;
+  width: 400px;
+  height: 310px;
 
 }
 .especial{
@@ -75,9 +77,11 @@ section p iframe{
   display: flex;
   align-items: flex-end;
   position:relative;
-  border: solid red;
-  width: 330px;
-  height: 94px; 
+  /* border: solid red;*/
+  margin: 2px;
+  padding: 2px;
+  width: 320px;
+  height: 90px; 
   max-width: 100%;
   background-image: url("../imagens/logo_fundesa-removebg.png");
   background-position: relative;
@@ -88,7 +92,9 @@ section p iframe{
   display: flex;
   align-items: flex-end;
   position:relative;
-  border: solid red;
+  /* border: solid red;*/
+  margin: 2px;
+  padding: 2px;
   width: 322px;
   height: 140px;
   max-width: 100%;
