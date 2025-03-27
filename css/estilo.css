@@ -62,7 +62,8 @@ section p {
   margin: 0 auto;
 }
 section p iframe{
-  align-items: auto;
+  align-items: center;
+  display: inline;
 
 }
 .especial{
@@ -78,7 +79,7 @@ section p iframe{
   width: 330px;
   height: 94px;
   background-image: url("../imagens/logo_fundesa-removebg.png");
-  float: center;
+  float: left;
 }
 
 #DivA{
@@ -90,7 +91,7 @@ section p iframe{
   width: 322px;
   height: 140px;
   background-image: url("/imagens/brasão-secretaria2.png");
-  float: center;
+  float: left;
 }
 .group:before,
 .group:after {
