@@ -73,11 +73,11 @@ section p iframe{
   color:yellow;
 }
 
-#DivLateral{
+/* #DivLateral{
   display: flex;
   align-items: flex-end;
   position:relative;
-  /* border: solid red;*/
+  /* border: solid red;
   margin: 2px;
   padding: 2px;
   width: 320px;
@@ -86,13 +86,13 @@ section p iframe{
   background-image: url("../imagens/logo_fundesa-removebg.png");
   background-position: relative;
   float: left;
-}
+} */
 
 #DivA{
   display: flex;
   align-items: flex-end;
   position:relative;
-  /* border: solid red;*/
+  border: solid red;
   margin: 2px;
   padding: 2px;
   width: 322px;
@@ -100,16 +100,16 @@ section p iframe{
   max-width: 100%;
   background-image: url("/imagens/brasão-secretaria2.png");
   background-position: relative;
-  float: left;
+  float: center;
 }
 .group:before,
 .group:after {
   content: "";
-  display: table;
+  display: table-column;
 } 
 .group:after {
   clear: both;
 }
 .group {
-   zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+   zoom: 2; /* For IE 6/7 (trigger hasLayout) */
 }
