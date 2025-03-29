@@ -7,7 +7,7 @@
  /* arquivo: estilo.css */
 body {
     font-family: Arial, sans-serif;
-    overflow: visible;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -50,24 +50,19 @@ body {
     padding: 2rem;
     text-align: center;
   }
-  h2, p, img {
+  /* h2, p, img {
     width: 600px;
     height: auto;
     margin: auto;
   }
-  
-  img.aligncenter {
-    width: 80%; 
-    max-width: 600px;
-    height: auto; 
-    padding: 5%;
-  }
-  section p {
+  */
+  /* section p {
     text-align: justify;
-    hyphens: auto; /* Add hifens automaticamente */
+    hyphens: auto; /* Add hifens automaticamente 
     width: 60%;
     margin: 0 auto;
-  }
+  } 
+  */ 
   section p iframe{
     align-items: center;
     display: inline;
