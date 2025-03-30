@@ -18,28 +18,29 @@
   <script src="js/bootstrap.min.js"></script>
 
   <header>
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <h5 class="text-white h4">Programa Sentinela</h5>
-        <span class="text-muted">Defesa Agropecuária</span>
-      </div>
-    </div>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-sucess fixed-top">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"> Programa Sentinela</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+    
   </header>
 
   <main>
-    <section>
     <div class="container-fluid">
-        <p>
-            <img src="imagens/programa_sentinela - Editado.jpg" class="img-fluid mx-auto d-block" alt="">
-        </p>
-    </div> <br>
+      <p>
+          <img src="imagens/programa_sentinela - Editado.jpg" class="img-fluid mx-auto d-block" alt="">
+      </p>
+    </div> 
+    <section id="sobre">
     <div class="container-fluid">
           <p  class="text-justify text-center mx-auto">
             <strong>
@@ -125,7 +126,7 @@
       <div class="container-fluid">
         <p  class="text-justify text-center mx-auto"> <br>
           <iframe 
-          src="https://www.youtube.com/embed/_NZl51XKUTo?si=d6UtixLqwGZBXRsp" class="img-fluid"
+          src="https://www.youtube.com/embed/_NZl51XKUTo?si=d6UtixLqwGZBXRsp" class="img-fluid w-100 mx-0"
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
           clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -136,13 +137,12 @@
     </section>
   </main>
   
-  <footer>
-      <p class="group">
-        
-        <div id="DivLateral">
-          
-        </div>
-      </p>
+  <footer class="footer bg-sucess text-white">
+    <div class="container-fluid d-flex justify-content-center align-items-center py-3">
+      <img src="imagens/brasão-secretaria2.png" alt="Logo" class="footer-logo">
+
+    </div>
+      
   </footer>
   
 </body>
