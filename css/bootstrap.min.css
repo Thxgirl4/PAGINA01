@@ -49,6 +49,13 @@ body {
     margin-top: 0;
     padding-top: 5px 0;
   }
+  div.scroll-container{
+    background-color: #028A0F;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
   footer {
     background-color:  #028A0F;
     color: white;
@@ -88,7 +95,7 @@ body {
   
   }
   .especial{
-    color:yellow;
+    color:#198754;;
   }
   
   /* #DivLateral{
