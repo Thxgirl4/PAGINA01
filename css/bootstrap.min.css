@@ -55,12 +55,13 @@ body {
     white-space: nowrap;
     padding: 10px;
   }
-  
+
   footer {
     background-color:  #028A0F;
     color: white;
     text-align: center;
     padding: 10px 0; 
+    margin-right: auto;
   }
   .footer-logo{
     width: 70px;
